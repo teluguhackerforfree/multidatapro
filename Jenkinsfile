@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('masterscm') {
+        stage('multibranchscm') {
             steps {
                 echo 'checksource code'
 				git 'https://github.com/teluguhackerforfree/maven.git'
